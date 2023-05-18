@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+.parent{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.child{
+    background-color: #F1F1F1;
+    height: 350px;
+    width: 350px;
+    padding: 40px 50px 40px;
+    margin: 0 auto;
+    position: relative;
+
+    filter: drop-shadow(2px 2px 2px #999) /* spaces */
+    drop-shadow(2px 2px #999)
+    drop-shadow(0 2px 2px #999)
+    drop-shadow(0 2px 2px #999);
+}
+
+.image{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+}
+.textDiv{
+    position: fixed;
+    top: 50%;
+    width: 350px;
+}
+.texts{
+    padding: 0 40px 0;
+    text-align: center;
+}
+button{
+    position: absolute;
+    left: 42%;
+}
